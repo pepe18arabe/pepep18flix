@@ -1,0 +1,45 @@
+body {
+    color: rgb(255, 237, 247);
+    background: rgb(0, 0, 0);
+    margin: 0xpx;
+    font-family: "Henny Penny", system-ui;
+}
+
+header {
+   border-bottom: solid 2px rgb(255, 237, 247); 
+   padding:20px;
+   font-size: 32px;
+   color: rgb(255, 237, 247); 
+}
+
+section {
+    background: rgb(185, 149, 170);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 40px;
+}
+p {
+    font-size: 20px;
+}
+img {
+    height: 200px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+}
